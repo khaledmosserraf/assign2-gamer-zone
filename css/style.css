@@ -1,0 +1,36 @@
+*{
+    font-family: 'Work Sans';
+    /* margin: 0px; */
+    /* max-width: 1440px; */
+}
+
+.navigation-sec{
+    display: flex;
+    justify-content: space-between;
+    /* width: auto; */
+    margin: 0px 240px;
+}
+.logo-col img{
+    width: 40px;
+    height: 30px;
+}
+.logo-col{
+    display: flex;
+    align-items: center;
+   
+}
+.logo-text{
+    font-size: 40px;
+    font-weight: 700;
+     margin-left: 10px;
+}
+.nav-col{
+    display: flex;
+}
+.nav-col ul{
+    display: flex;
+    /* justify-content: space-around; */
+}
+.nav-col li{
+    list-style: none;
+}
