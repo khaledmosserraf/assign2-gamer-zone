@@ -7,7 +7,7 @@
 .navigation-sec{
     display: flex;
     justify-content: space-between;
-    /* width: auto; */
+    align-items: center;
     margin: 0px 240px;
 }
 .logo-col img{
@@ -17,20 +17,40 @@
 .logo-col{
     display: flex;
     align-items: center;
-   
+    
 }
 .logo-text{
     font-size: 40px;
     font-weight: 700;
      margin-left: 10px;
 }
+.logo-font{
+    color: #ff42a5;
+}
 .nav-col{
     display: flex;
+    align-items: center;
+    
 }
 .nav-col ul{
     display: flex;
-    /* justify-content: space-around; */
+    justify-content: center;
+    
 }
 .nav-col li{
+    font-size: 18px;
     list-style: none;
+    margin-right: 20px;
+}
+.nav-btn{
+    font-size: 18px;
+    padding: 10px 10px 10px 20px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: rgba(11, 2, 35, 0.10);
+}
+.nav-btn > .fa-brands{
+    margin: 0px 10px;
+    font-size: 20px;
+    align-items: center;
 }
