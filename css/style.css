@@ -1,56 +1,178 @@
-*{
+* {
     font-family: 'Work Sans';
     /* margin: 0px; */
     /* max-width: 1440px; */
 }
 
-.navigation-sec{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0px 240px;
+p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #534C64;
+    width: auto;
+    line-height: 25px;
 }
-.logo-col img{
+
+/* Header Part styles */
+.navigation-sec {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1920px;
+    margin: 0px auto;
+}
+
+.logo-col img {
     width: 40px;
     height: 30px;
 }
-.logo-col{
+
+.logo-col {
     display: flex;
     align-items: center;
-    
 }
-.logo-text{
+
+.logo-text {
     font-size: 40px;
     font-weight: 700;
-     margin-left: 10px;
+    color: #0B0223;
+    margin-left: 10px;
 }
-.logo-font{
+
+.logo-font {
     color: #ff42a5;
 }
-.nav-col{
+
+.nav-col,
+.nav-items {
     display: flex;
     align-items: center;
-    
 }
-.nav-col ul{
-    display: flex;
-    justify-content: center;
-    
-}
-.nav-col li{
+
+.nav-items a {
     font-size: 18px;
-    list-style: none;
+    font-weight: 500;
+    color: #3C354F;
     margin-right: 20px;
+    text-decoration: none;
 }
-.nav-btn{
+
+.nav-btn {
     font-size: 18px;
     padding: 10px 10px 10px 20px;
     border-radius: 5px;
     border: 0px;
     background-color: rgba(11, 2, 35, 0.10);
 }
-.nav-btn > .fa-brands{
+
+.nav-btn>.fa-brands {
     margin: 0px 10px;
     font-size: 20px;
     align-items: center;
 }
+
+/* Header Part styles ends */
+
+/* Header Banner styles here */
+.header-banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1920px;
+    background: url('/images/Group-14.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 50%;
+    margin: 0px auto;
+}
+
+.header-contents {
+    align-content: center;
+
+}
+
+.play-like {
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    margin: 4px 0px;
+}
+
+.header-contents h1 {
+    width: 100%;
+    font-size: 85px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 4px 0px;
+}
+
+.goat-text {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.header-image img {
+    width: 400px;
+    height: 450px;
+}
+
+.header-contents ul li {
+    font-size: 18px;
+    font-weight: 400;
+    color: #534C64;
+    list-style: none;
+}
+.header-contents > ul > li > .fa-solid, .fa-sharp{
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+
+.header-banner-btn {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    margin-right: 10px;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    border: 0px;
+}
+
+#btn-2{
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    margin-right: 10px;
+    border-radius: 48px;
+    border: 0px;
+    background: #4EC5F7;
+}
+/* Header Banner styles End here */
+/* Online Games Funny Videos Styles Start here */
+.online-games{
+   text-align: center;
+}
+.image-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    /* margin: 0px auto; */
+}
+
+.image-container img{
+    /* width: 80%;
+    height: 80%;
+} */
+/* Online Games Funny Videos Styles Ends here */
