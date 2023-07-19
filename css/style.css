@@ -93,7 +93,6 @@ p {
 
 .play-like {
     color: #0B0223;
-    text-align: center;
     font-size: 40px;
     font-weight: 600;
     line-height: normal;
@@ -103,7 +102,7 @@ p {
 
 .header-contents h1 {
     width: 100%;
-    font-size: 71px;
+    font-size: 69px;
     font-weight: 800;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -153,7 +152,7 @@ p {
     padding: 15px 30px;
     margin-right: 10px;
     border-radius: 48px;
-    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
     border: 0px;
 }
 
@@ -241,14 +240,65 @@ p {
     margin: 0px;
 
 } */
-
-.online-games-img p {
+.image-container{
+    display: flex;
+    
+}
+.image-container p {
     text-align: center;
     
 }
 
 /* Online Games Funny Videos Styles Ends here */
 
+.play-instantly-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+
+.play-instantly{
+    align-content: center;
+    text-align: end;
+    width: 50%;
+    /* margin: 0px 240px 0px auto; */
+    padding: 0px 200px 0px 0px;
+}
+
+.play-logo-font{
+    color: #ff42a5;
+    font-size: 48px;
+}
+.play-instantly-font{
+    font-size: 48px;
+}
+
+.play-img{
+    width: 435px;
+    height: 450px;
+}
+.play-img-bottom{
+    width: 220px;
+    height: 250px;
+    position: relative;
+    bottom: -50px;
+    left: -550px;
+    
+}
+
+
+
+
+
+.btn-hover-main-container{
+    margin: 100px 0px;
+}
+
+.btn-hover-effect{
+    display: flex;
+
+}
 
 
 
@@ -263,7 +313,10 @@ p {
 @media screen and (max-width:426px) {
 
     .navigation-sec,
-    .nav-items {
+    .nav-items,
+    .play-instantly-section,
+    .btn-hover-effect
+    {
         flex-direction: column;
     }
 
@@ -284,5 +337,28 @@ p {
     .header-image img {
         margin-top: 40px;
     }
+    .play-instantly{
+        font-size: 30px;
+        align-content: center;
+        text-align: center;
+        width: 100%;       
+        padding: 0px;
 
+    }
+    .play-instantly-images{
+        text-align: center;
+    }
+    .play-img{
+        text-align: center;
+        width: 335px;
+        height: inherit;
+    }
+    .play-img-bottom{
+        width: 120px;
+        height: 150px;
+        position: relative;
+        bottom: 100px;
+        left: -150px;
+        
+    }
 }
