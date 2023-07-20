@@ -78,12 +78,12 @@ p {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    max-width: 1920px;
+    width: auto;
+    margin: 0px auto;
     background-image: url("/images/Group-14.png");
     background-repeat: no-repeat;
     background-position: left;
     background-size: 50%;
-    margin: 0px auto;
 }
 
 .play-like {
@@ -94,6 +94,7 @@ p {
     text-transform: uppercase;
     margin: 4px 0px;
 }
+
 
 .header-contents h1 {
     width: 100%;
@@ -112,7 +113,7 @@ p {
 }
 
 .header-image img {
-    width: 400px;
+    width: 380px;
     height: 450px;
 }
 
@@ -195,21 +196,66 @@ p {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin: 20px 0px;
+        margin: 30px 0px;
+    }
+
+    .logo-text {
+        font-size: 35px;
+        font-weight: 700;
+        color: #0B0223;
+        margin-left: 5px;
+    }
+
+    .nav-btn{
+        padding: 5px;
+    }
+
+    .nav-btn>.fa-brands {
+        margin: 0px 5px;
+        font-size: 12px;        
     }
 
     .navigation-section {
-        height: 200px;
+        height: 100px;        
     }
 
     .nav-items a {
-        margin: 5px 0px;
+        font-size: 12px;
+        margin-right: 20px;        
     }
 
     .header-contents {
         margin-top: 50px;
     }
 
+    .play-like{
+        font-size: 22px;
+    }
+
+    .header-contents h1 {
+        font-size: 35px;
+    }
+
+    .header-image img {
+        width: 330px;
+        height: 330px;
+    }
+
+    .header-banner-btn, #btn-2{
+        font-size: 15px;
+        padding: 10px 20px;
+    }
+
+    .header-contents ul li{
+        font-size: 12px;
+    }
+
+    .header-contents>ul>li>.fa-solid,
+.fa-sharp{
+    margin-right: 0px;
+    font-size: 12px;
+
+}
     .header-banner {
         flex-direction: column-reverse;
         background-position: bottom;
